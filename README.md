@@ -17,7 +17,8 @@ http://icybee.cn/article/58.html
 1. 安装nginx，需要支持sub_filter模块的版本
 2. 将 nginx.conf中的内容添加到你的nginx配置文件中
 3. 运行byrmirror/redir.py 启动重定向引擎
-4. 如果需要回帖功能，运行byrmirror/receiver.py 和 byrmirror/redir.py 启动镜像回帖功能后段(可选)
+4. 将nginx中的img和js路径配置到statics中的资源文件路径下
+5. 如果需要回帖功能，运行byrmirror/receiver.py 和 byrmirror/redir.py 启动镜像回帖功能后段(可选)
 
 # License
 
